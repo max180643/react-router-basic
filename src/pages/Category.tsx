@@ -6,8 +6,6 @@ const Category: react.FC = () => {
   // url - (string) The matched portion of the URL. Useful for building nested <Link>
   // path - (string) The path pattern used to match. Useful for building nested <Route>
 
-  console.log(url, path)
-
   return (
     <div>
       <ul>

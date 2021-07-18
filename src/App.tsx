@@ -21,11 +21,11 @@ function App() {
         </ul>
       </nav>
 
-      {/* <Switch> */}
-      <Route path="/" exact component={Home} />
-      <Route path="/category" component={Category} />
-      <Route path="/products" component={Products} />
-      {/* </Switch> */}
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/category" component={Category} />
+        <Route path="/products" component={Products} />
+      </Switch>
     </div>
   )
 }
